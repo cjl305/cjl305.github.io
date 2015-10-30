@@ -6,4 +6,37 @@ body {
 #wrapper {
   width: 960px;
   margin: 20px auto;
+ 
+}
+/* Making the H1 red */
+h3, h4 {
+	color: blue;
+}
+#summary {
+	color: blue;
+}
+.unicorn {
+	color: blue;
+}
+
+h4 {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#profilepic {
+	 width: 250px;
+	 border: 5px solid navy;
+}
+h5 {
+	font-style: italic;
+	font-size: medium;
+	color: navy;
+}
+h1, h2 {
+	color: navy;
+	font-stretch: expanded;
+}
+#location {
+	color: navy;
 }
