@@ -10,19 +10,22 @@ body {
   margin: 20px auto;
  }
 /* Making the H1 red */
-h3, h4 {
+h3 {
 	color: white;
+}
+h4 {
+	color: white;
+	font-size: 12pt;
+	text-decoration: underline;
 }
 #summary {
 	color: white;
 }
-.unicorn {
-	color: white;
-}
 
-h4 {
-	text-decoration: underline;
+.subheading {
 	font-weight: bold;
+	font-size: 15pt;
+	font-variant: small-caps;
 }
 
 #profilepic {
@@ -31,7 +34,7 @@ h4 {
 	 border:1px solid white;
 }
 
-h5, h6 {
+h5 {
 	font-style: italic;
 	font-size: medium;
 	color: white;
@@ -72,6 +75,19 @@ h1, h2 {
 
 #connect {
 	position: absolute;
-	top: 280px;
+	top: 275px;
 	left: 450px;
+}
+
+#Klogo {
+	width: 30px;
+}
+
+#ending {
+	position: absolute;
+	left: 600px;
+}
+
+h6 {
+	color: white;
 }
