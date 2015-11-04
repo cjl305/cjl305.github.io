@@ -1,22 +1,23 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background: url(linedpaper.png) repeat;
+  background: url(Kellogglogo2.jpg);
+  background-size: 350%;
 }
+
 #wrapper {
-  width: 960px;
+  width: 1260px;
   margin: 20px auto;
- 
-}
+ }
 /* Making the H1 red */
 h3, h4 {
-	color: blue;
+	color: white;
 }
 #summary {
-	color: blue;
+	color: white;
 }
 .unicorn {
-	color: blue;
+	color: white;
 }
 
 h4 {
@@ -26,17 +27,51 @@ h4 {
 
 #profilepic {
 	 width: 250px;
-	 border: 5px solid navy;
+	 padding: 1px;
+	 border:1px solid white;
 }
-h5 {
+
+h5, h6 {
 	font-style: italic;
 	font-size: medium;
-	color: navy;
+	color: white;
 }
 h1, h2 {
-	color: navy;
+	color: white;
 	font-stretch: expanded;
 }
 #location {
-	color: navy;
+	color: white;
+}
+
+#banner {
+	width: 1200px;
+}
+
+#profilepic {
+	position: static;
+	}
+
+#name {
+	position: absolute;
+	top: 140px;
+	left: 450px;
+}
+
+#title {
+	position: absolute;
+	top: 195px;
+	left: 450px;
+}
+
+#location {
+	position: absolute;
+	top: 225px;
+	left: 450px;
+}
+
+#connect {
+	position: absolute;
+	top: 280px;
+	left: 450px;
 }
