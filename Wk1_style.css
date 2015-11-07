@@ -12,20 +12,24 @@ body {
 /* Making the H1 red */
 h3 {
 	color: white;
-	font-size: 16pt;
-	font-weight: bold;
-	margin-top: 40px;
 }
 h4 {
 	color: white;
 	font-size: 12pt;
-		}
+	text-decoration: underline;
+	}
 #summary {
 	color: white;
 }
 
+.subheading {
+	font-weight: bold;
+	font-size: 15pt;
+	font-variant: small-caps;
+}
 
-.img-circle {
+#profilepic {
+	 width: 250px;
 	 padding: 1px;
 	 border:1px solid white;
 }
@@ -34,42 +38,48 @@ h5 {
 	font-style: italic;
 	font-size: medium;
 	color: white;
-	margin-top: 30px;
 }
 h1, h2 {
 	color: white;
-	font-weight: bold;
+	font-stretch: expanded;
 }
-#location {
-	color: white;
+#name {
+	position: absolute;
+	top: 140px;
+	left: 450px;
 }
 
-#banner2 {
+#title {
+	position: absolute;
+	top: 195px;
+	left: 450px;
+}
+
+#location {
+	position: absolute;
+	top: 225px;
+	left: 450px;
+}
+
+#banner {
 	width: 1200px;
 }
 
-.img-circle {
-	width: 150px;
-	margin-top: 30px;
+#connect {
+	position: absolute;
+	top: 275px;
+	left: 450px;
 }
-#aboutme {
-	margin-top: 30px;
-}
+
 #Klogo {
 	width: 30px;
 }
-#name {
-	font-size: 14pt;
-	font-weight: bold;
-}
-h6 {
-	color: white;
-}
+
 #ending {
-	margin-top: 30px;
 	position: absolute;
 	left: 600px;
 }
-.dropdown {
+
+h6 {
 	color: white;
 }
