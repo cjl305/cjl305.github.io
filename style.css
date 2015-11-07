@@ -56,7 +56,7 @@ h1, h2 {
 	margin-top: 30px;
 }
 #Klogo {
-	width: 30px;
+	width: 25px;
 }
 #name {
 	font-size: 14pt;
@@ -72,4 +72,12 @@ h6 {
 }
 .dropdown {
 	color: white;
+}
+.navbar {
+	margin-top: 30px;
+	color: purple;
+}
+
+#Klogo2 {
+	height: 25px;
 }
