@@ -1,44 +1,59 @@
 body {
-  font-family: 'helvetica neue', arial, sans-serif;
-  font-weight: 300;
-  background: url(Kellogglogo2.jpg);
+  background: url(Gray.jpg);
   background-size: 350%;
 }
+
+h1, #comment1 {
+	color: #FF66CC;
+	font-weight: bold;
+	margin-top: 40px;
+}
+
+h2 {
+	color: gray;
+}
+
+h4 {
+	color: gray;
+	font-size: 10pt;
+}
+
+
+
+#inside1, #inside2, #inside3 {
+	color: white;
+}
+
+
+#comment1 {
+	color: #FF99CC;
+	font-weight: bold;
+	margin-bottom: 40px;	
+}
+
+
+
+
+
+
+
 
 #wrapper {
   width: 1260px;
   margin: 20px auto;
  }
-/* Making the H1 red */
-h3 {
-	color: white;
-	font-size: 16pt;
-	font-weight: bold;
-	margin-top: 40px;
-}
-h4 {
-	color: white;
-	font-size: 12pt;
-		}
+
 #summary {
-	color: white;
+	color: #9933FF;
 }
 
 
 .img-circle {
 	 padding: 1px;
-	 border:1px solid white;
+	 border:1px solid #9933FF;
 }
 
-h5 {
-	font-style: italic;
-	font-size: medium;
-	color: white;
-	margin-top: 30px;
-}
-h1, h2 {
-	color: white;
-	font-weight: bold;
+
 }
 #location {
 	color: white;
@@ -62,8 +77,7 @@ h1, h2 {
 	font-size: 14pt;
 	font-weight: bold;
 }
-h6 {
-	color: white;
+
 }
 #ending {
 	margin-top: 30px;
@@ -73,10 +87,7 @@ h6 {
 .dropdown {
 	color: white;
 }
-.navbar {
-	margin-top: 30px;
-	color: purple;
-}
+
 
 #Klogo2 {
 	height: 25px;

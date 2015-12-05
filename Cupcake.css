@@ -1,0 +1,43 @@
+body {
+  background: url(Gray.jpg);
+  background-size: 350%;
+}
+
+h1, #comment1 {
+	color: #FF66CC;
+	font-weight: bold;
+	margin-top: 40px;
+}
+
+h2 {
+	color: gray;
+}
+
+h4 {
+	color: gray;
+	font-size: 10pt;
+}
+
+
+.Icon {
+	height: 10px;
+}
+
+
+.img-rounded {
+	height: 120px;
+	width: 120px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#inside1, #inside2, #inside3 {
+	color: white;
+}
+
+
+#comment1 {
+	color: #FF99CC;
+	font-weight: bold;
+	margin-bottom: 40px;	
+}

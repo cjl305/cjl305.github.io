@@ -1,0 +1,56 @@
+body {
+  background: url(Gray.jpg);
+  background-size: 350%;
+}
+
+.thumbnail > img { 
+  height: 100px;
+  width: 140px;
+  margin-top: 10px;
+}
+
+h1, #comment1 {
+	color: #6666FF;
+	font-weight: bold;
+	margin-top: 40px;
+}
+
+h2 {
+	color: gray;
+}
+
+h4 {
+	color: gray;
+	font-size: 10pt;
+}
+
+.restart {
+	margin-bottom: 15px;
+}
+
+.Icon {
+	height: 10px;
+}
+
+.jumbotron {
+		background-color:#99ccfg !important
+}
+
+.img-thumbnail {
+	height: 120px;
+}
+
+#inside1, #inside2 {
+	color: white;
+}
+
+.restart {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#comment1 {
+	color: #6666FF;
+	font-weight: bold;
+	margin-bottom: 40px;	
+}
